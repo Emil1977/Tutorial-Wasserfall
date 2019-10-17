@@ -89,7 +89,7 @@ gulp.task('html', done => {
 gulp.task('default', function() {
 
   browserSync.init({
-    browser: "google chrome",
+    browser: "chrome",
     server: './dist'
   });
 

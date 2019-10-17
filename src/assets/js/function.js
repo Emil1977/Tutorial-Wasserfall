@@ -1,5 +1,5 @@
-import $ from 'jquery';
-import howler from 'howler';
+//import $ from 'jquery';
+//import howler from 'howler';
 import anime from "animejs";
 
 const LANDING = {};
@@ -18,7 +18,7 @@ const svgAnimation = () => {
     });
 
     anime({
-      targets: LANDING.intro,
+      targets: LANDING.path,
       duration: 1500,
       easing: 'easeInOutSine',
       d: LANDING.path.getAttribute('pathdata:id')
